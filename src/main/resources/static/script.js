@@ -19,7 +19,7 @@ function sendMessage(){
 
     stompClient.send("/app/message",{},JSON.stringify(jsonOb));
 
-
+    $('#message').val('');
 
 }
 
