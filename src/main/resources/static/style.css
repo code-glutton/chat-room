@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#particles-js{
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    font-size: 20px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+#name{
+    width: 80%;
+    padding: 0.8rem;
+    border: solid 1px darkgrey;
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: 1rem;
+    margin-right: auto;
+}
+
+#enter{
+    width: 30%;
+    padding-bottom: 0.2rem;
+    padding-top: 0.2rem;
+}
+
+#enterContainer{
+    width: 70%;
+    background-color:white;
+    border-radius: 0.8rem;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+#message{
+    width: 100%;
+    padding: 0.8rem;
+    border: solid 1px darkgrey;
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: 1rem;
+    margin-right: auto;
+}
+
+#messagingBox{
+    width: 100%;
+}
+
+.noDisplay{
+display: none;
+}

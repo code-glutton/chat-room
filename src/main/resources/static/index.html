@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Chat Room </title>
+
+
+    <link rel="stylesheet" href="/style.css">
+
+    <script src="/webjars/jquery/jquery.min.js"></script>
+    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/stomp.min.js"></script>
+    <script src="/script.js"></script>
+
+</head>
+<body>
+<div id="particles-js">
+    <div id="enterContainer" class="display">
+        <div>
+            <input type="text" placeholder="Enter your name here" id="name"/>
+        </div>
+        <button id="enter" >Enter</button>
+    </div>
+    <div id="contentContainer" class="noDisplay">
+        <div id="messagingBox">
+            <input type="text" placeholder="Enter your message here" id="message"/>
+        </div>
+        <button id="send">Send</button>
+        <button id="logout">Logout</button>
+        <div id="messagingView">
+            <table id="tableContent">
+
+            </table>
+        </div>
+    </div>
+</div>
+
+    <script src="/particles.js"></script>
+    <script src="/app.js"></script>
+</body>
+</html>
